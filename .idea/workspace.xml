@@ -20,6 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89c3deec-dea2-42a5-b3d0-5c4503356d82" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/employee_index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/employee_history.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/employee_history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/employee_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/employee_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/manager_history.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/manager_history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/manager_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/manager_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/manager_pending.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/manager_pending.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/reimbursement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,13 +44,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="24d1QD1WV4Yg9yGW9TStxhztjUK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -51,15 +64,11 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/html" />
@@ -75,8 +84,11 @@
       <option name="presentableId" value="Default" />
       <updated>1643945632486</updated>
       <workItem from="1643945634854" duration="7675000" />
-      <workItem from="1644306229377" duration="22506000" />
-      <workItem from="1644386708660" duration="45461000" />
+      <workItem from="1644306229377" duration="64608000" />
+      <workItem from="1644947471053" duration="18712000" />
+      <workItem from="1645025741367" duration="1272000" />
+      <workItem from="1645047949770" duration="422000" />
+      <workItem from="1645053047542" duration="24764000" />
     </task>
     <servers />
   </component>
@@ -96,13 +108,66 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="144" y="152" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1644514297212">
-      <screen x="0" y="25" width="1440" height="817" />
-    </state>
-    <state x="144" y="152" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.817@0.25.1440.817" timestamp="1644514297212" />
     <state x="237" y="84" key="SettingsEditor" timestamp="1643949904659">
       <screen x="0" y="25" width="1440" height="817" />
     </state>
     <state x="237" y="84" key="SettingsEditor/0.25.1440.817@0.25.1440.817" timestamp="1643949904659" />
+    <state x="629" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1644791619359">
+      <screen x="0" y="25" width="1440" height="817" />
+    </state>
+    <state x="629" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.817@0.25.1440.817" timestamp="1644791619359" />
+    <state x="306" y="225" width="865" height="520" key="dock-window-1" timestamp="1645159727950">
+      <screen x="0" y="25" width="1440" height="817" />
+    </state>
+    <state x="306" y="225" width="865" height="520" key="dock-window-1/0.25.1440.817/-1920.-17.1920.1055@0.25.1440.817" timestamp="1645159727950" />
+    <state x="316" y="166" width="670" height="676" key="search.everywhere.popup" timestamp="1645120926875">
+      <screen x="0" y="25" width="1440" height="817" />
+    </state>
+    <state x="316" y="166" width="670" height="676" key="search.everywhere.popup/0.25.1440.817/-1920.-17.1920.1055@0.25.1440.817" timestamp="1645120926875" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/userScript.js</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/employeeScript.js</url>
+          <line>112</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/employeeScript.js</url>
+          <line>113</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/userScript.js</url>
+          <line>22</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/userScript.js</url>
+          <line>21</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/reimbursementScript.js</url>
+          <line>78</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/reimbursementScript.js</url>
+          <line>94</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

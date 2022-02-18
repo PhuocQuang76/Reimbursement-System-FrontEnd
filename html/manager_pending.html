@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../css/employee_index.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
           rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossorigin="anonymous">
@@ -42,12 +42,10 @@
                         <li >
                             <a class="nav nav-link text-dark" href="manager_history.html">Reimbursement History</a>
                         </li>
+                        <li class="button">
+                            <a href="../index.html" class="buttonLogout  nav nav-link float-right">Logout</a>
+                        </li>
                     </ul>
-                    <a id="login"
-                       href="../index.html"
-                       class="btn btn-info float-right"
-                       style="width: 95px; height:45px">Logout
-                    </a>
                 </div>
             </div>
         </div>
@@ -67,7 +65,7 @@
 
 
 <div class="container">
-    <button onclick="addTable()" type="button" class="btn btn-dark btn-lg">TEST</button>
+
     <h2>Pending Reimbursement</h2>
     <div >
         <table id="userPendingListTable" border="2" >
@@ -87,12 +85,11 @@
 
             </tr>
         </table>
-
-
     </div>
+
 </div>
 
 
-<script src="../js/script.js"></script>
+<script src="../js/managerScript.js"></script>
 </body>
 </html>
