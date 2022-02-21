@@ -12,52 +12,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
           rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossorigin="anonymous">
-
-    <style>
-        .dropbtn {
-            background-color: #1a5f8d;
-            color: black;
-            padding: 16px;
-            font-size: 16px;
-            border-radius: 10%;
-            cursor: pointer;
-        }
-
-        .dropbtn:hover, .dropbtn:focus {
-            background-color:#628fb1;
-            color : darkblue;
-        }
-
-        .dropdown {
-            position: relative;
-            display: inline-block;
-
-        }
-
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f1f1f1;
-            min-width: 160px;
-            overflow: auto;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1;
-        }
-
-        .dropdown-content a {
-            color: black;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-        }
-
-        .dropdown a:hover {background-color: #ddd;}
-
-        .show {display: block;}
-    </style>
 </head>
 <body>
-<header>
+<header >
     <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid" >
             <div class="float-left">
@@ -104,22 +61,22 @@
     </div>
 </div>
 
-<div class="container">
-    <table>
-        <tr>
-            <th>Title</th>
-            <th>Description</th>
-        </tr>
-        <tr>
-            <td ><textarea id ="title" style="height: 45px; width: 150px" type="text"></textarea></td>
-            <td style="margin-top: 5px"><textarea  id="description" style="height: 45px; width: 200%" type="text"></textarea></td>
-        </tr>
-        <tr>
-            <td colspan="2"><span id="error"></span></td>
-        </tr>
-    </table>
-    <button id = "next" onclick="errorMessage()" class="button">Next</button>
-</div>
+<!--<div class="container">-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <th>Title</th>-->
+<!--            <th>Description</th>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td ><textarea id ="title" style="height: 45px; width: 150px" type="text"></textarea></td>-->
+<!--            <td style="margin-top: 5px"><textarea  id="description" style="height: 45px; width: 200%" type="text"></textarea></td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td colspan="2"><span id="error"></span></td>-->
+<!--        </tr>-->
+<!--    </table>-->
+<!--    <button id = "next" onclick="errorMessage()" class="button">Next</button>-->
+<!--</div>-->
 
 
 <!--<div class="container">-->
@@ -133,32 +90,39 @@
 
 <!--</div>-->
 
+
 <div class="container">
+    <form id="reimbursementForm">
+        <h4>Please fill in the form</h4>
 
-<!--    <div id="lodging"  style="display: none">-->
-    <div id="reimbDetail"  style="display: none">
-        <span class = "button" id="lodging1">1:Lodging, 2:travel, 3:food, 4:other</span>
-        <table>
-            <tr>
-                <th>Type</th>
-                <th>Amount</th>
-                <th>Transaction Date</th>
-                <th></th>
-            </tr>
-            <tr>
+        <label for="title">Title:</label>
+        <input type="text" id ="title" name="title" value=""><br>
 
-                <td><input id = "a1" class="reimbType2" type="text"></td>
-                <td><input id = "b1" class="reimbType3" type="text"></td>
-                <td><input id = "c1" class="reimbType4" type="text"></td>
-<!--                <td><input class="button" type="submit" value="Save" onclick="" /></td>-->
-            </tr>
-        </table>
-    </div>
 
-    <br>
+        <label for="ReimbType">Reimbursement Type:</label>
+        <select id="ReimbType" name="ReimbType">
+            <option value="1">1: Lodging</option>
+            <option value="2">2: Travel</option>
+            <option value="3">3: Food</option>
+            <option value="4">4: Other</option>
+        </select>
+        <br>
+        <label for="Amount">Amount:</label>
+        <input type="text" id="Amount" name="Amount" value=""><br>
+        <label for="TransDate">Transaction Date:</label>
+        <input type="text" id="TransDate" name="TransDate" value=""><br>
 
-<!--    <div id="travel" style="display: none">-->
-<!--        <span class="button" id="travel1"></span>-->
+        <label for="description">Description:</label>
+        <textarea type="text" id="description" name="description" value=""></textarea><br>
+
+        <input type="button" value="Submit"  class="button" id="submitForm" onclick="submitReimbursement()">
+    </form>
+
+
+    <!--    -->
+<!--&lt;!&ndash;    <div id="lodging"  style="display: none">&ndash;&gt;-->
+<!--    <div id="reimbDetail"  style="display: none">-->
+<!--        <span class = "button" id="lodging1">1:Lodging, 2:travel, 3:food, 4:other</span>-->
 <!--        <table>-->
 <!--            <tr>-->
 <!--                <th>Type</th>-->
@@ -167,62 +131,23 @@
 <!--                <th></th>-->
 <!--            </tr>-->
 <!--            <tr>-->
-<!--                <td><input id = "a2" class="reimbType2" type="text" value="travel" disabled></td>-->
-<!--                <td><input id = "b2" class="reimbType3" type="text"></td>-->
-<!--                <td><input id = "c2" class="reimbType4" type="text"></td>-->
+
+<!--                <td><input id = "a1" class="reimbType2" type="text"></td>-->
+<!--                <td><input id = "b1" class="reimbType3" type="text"></td>-->
+<!--                <td><input id = "c1" class="reimbType4" type="text"></td>-->
 <!--&lt;!&ndash;                <td><input class="button" type="submit" value="Save" onclick="" /></td>&ndash;&gt;-->
 <!--            </tr>-->
 <!--        </table>-->
 <!--    </div>-->
 
 <!--    <br>-->
-
-<!--    <div id ="food" style="display: none">-->
-<!--        <span class="button" id="food1"></span>-->
-<!--        <table>-->
-<!--            <tr>-->
-<!--                <th>Type</th>-->
-<!--                <th>Amount</th>-->
-<!--                <th>Transaction Date</th>-->
-<!--                <th></th>-->
-<!--            </tr>-->
-<!--            <tr>-->
-<!--                <td><input id = "a3" class="reimbType2" type="text" value="food" disabled></td>-->
-<!--                <td><input id = "b3" class="reimbType3" type="text"></td>-->
-<!--                <td><input id = "c3" class="reimbType4" type="text"></td>-->
-<!--&lt;!&ndash;                <td><input class="button" type="submit" value="Save" onclick="" /></td>&ndash;&gt;-->
-<!--            </tr>-->
-<!--        </table>-->
+<!--    -->
+<!--    <div id = "submit" style="display: none">-->
+<!--&lt;!&ndash;        <input class="button" type="submit" value="Save" onclick="" >&ndash;&gt;-->
+<!--        <input class="button" type="submit" value="Submit" onclick="submitReimbursement()">-->
 <!--    </div>-->
-
-<!--    <br>-->
-
-<!--    <div id="other" style="display: none" >-->
-<!--        <span class="button" id="other1"></span>-->
-<!--        <table>-->
-<!--            <tr>-->
-<!--                <th>Type</th>-->
-<!--                <th>Amount</th>-->
-<!--                <th>Transaction Date</th>-->
-<!--                <th></th>-->
-<!--            </tr>-->
-<!--            <tr>-->
-<!--                <td><input id = "a4" class="reimbType2" type="text" value="other" disabled></td>-->
-<!--                <td><input id = "b4" class="reimbType3" type="text"></td>-->
-<!--                <td><input id = "c4" class="reimbType4" type="text"></td>-->
-<!--&lt;!&ndash;                <td><input class="button" type="submit" value="Save" onclick="" /></td>&ndash;&gt;-->
-<!--            </tr>-->
-<!--        </table>-->
-<!--    </div>-->
-
-
-
-    <div id = "submit" style="display: none">
-<!--        <input class="button" type="submit" value="Save" onclick="" >-->
-        <input class="button" type="submit" value="Submit" onclick="submitReimbursement()">
-    </div>
-
 </div>
+
 
 
 <script src="../js/employeeScript.js"></script>

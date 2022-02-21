@@ -1,3 +1,14 @@
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.headerBar{
+    position: fixed;
+}
+
 .list-inline-item{
     margin-left:10px;
 }
@@ -81,6 +92,7 @@ div.container{
     width: 250px;
     height: 50px;
 }
+
 .reimbType5{
     width: 80px;
     height: 50px;
@@ -100,7 +112,7 @@ div.container{
     height: 50px;
 }
 #head2{
-    width: 200px;
+    width: 220px;
     height: 50px;
 }
 #head3{
@@ -116,7 +128,11 @@ div.container{
     height: 50px;
 }
 #head6{
-    width: 80px;
+    width: 120px;
+    height: 50px;
+}
+#head7{
+    width: 150px;
     height: 50px;
 }
 /*#userListTable{*/
@@ -128,4 +144,30 @@ div.container{
 .borderHead{
     background-color: #3c89ca;
     border: 1px solid black;
+}
+
+#reimbursementForm{
+    background-color: #f7fafa;
+    border: 1px solid black;
+    width: 41%;
+}
+#reimbursementForm >input, select{
+    height: 40px;
+    width: 45%;
+
+}
+#reimbursementForm > label{
+    margin: 20px 2px 1px 25px;
+    font-weight: bold;
+    text-decoration: #030d1a;
+    width: 170px;
+}
+#reimbursementForm > textarea{
+    margin-top: 25px;
+    width: 45%;
+}
+#submitForm, h4{
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-bottom: 25px;
 }

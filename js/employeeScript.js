@@ -31,22 +31,6 @@ function changeFieldToVisible(){
     }
 }
 
-function errorMessage(){
-    let error = document.getElementById("error");
-    let value = document.getElementById('title').value;
-
-    if(!value){
-        error.textContent = "Please enter title name";
-        error.style.color = "red"
-    } else {
-        error.textContent = "";
-        document.getElementById('reimbDetail').style.display = 'block';
-        document.getElementById('submit').style.display = 'block';
-
-
-    }
-
-}
 
 //Load data into employee-index page
 function loadDataIntoUserPage(res){
@@ -101,6 +85,26 @@ let submitUpdateProfile = async () => {
     let role = document.getElementById('role').value;
     let passWord = document.getElementById('password').value;
 
+   let emailValidate = isEmailValidity(email);
+   let passwordValidate = isPasswordValidity(passWord);
+   if(!emailValidate) {
+       document.getElementById("updateEmailSpan").style.visibility = "visible";
+   }
+
+   if(!passwordValidate) {
+       document.getElementById("updatePasswordSpan").style.visibility = "visible";
+
+   }
+
+   if(emailValidate == true && passwordValidate == true){
+       alert("Profile updated !!!");
+       let updateObj = {userId,firstName,lastName,email,role,passWord};
+       let req = await fetch(`${URL}/user/update`, {
+           credentials: "include",
+           method: 'PUT',
+           body: JSON.stringify(updateObj)
+       });
+   }
 
     // let userId = document.forms["userForm"]["id"].value;
     // let firstName = document.forms["userForm"]["fname"].value;
@@ -108,18 +112,6 @@ let submitUpdateProfile = async () => {
     // let email = document.forms["userForm"]["email"].value;
     // let role = document.forms["userForm"]["role"].value;
     // let passWord = document.forms["userForm"]["password"].value;
-
-
-    let updateObj = {userId,firstName,lastName,email,role,passWord};
-    let req = await fetch(`${URL}/user/update`,{
-        credentials: "include",
-        method:'PUT',
-        body:JSON.stringify(updateObj)
-
-    });
-    let res = await req.json();
-    alert("Profile updated !!!")
-    console.log(res);
 
 }
 let updateProfile = async () => {
@@ -129,13 +121,28 @@ let updateProfile = async () => {
         inputs[i].disabled = true;
     }
     submitUpdateProfile();
-    alert("Profile updated !!!")
+    // alert("Profile updated !!!")
 
 };
 
+isEmailValidity = (emailAddress) => {
+    {
+        if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(emailAddress))
+        {
+            return true;
+        }else{
+            alert("Invalid email address !!!")
+            return false;
+        }
 
-// function addUserHistoryTable(tableName){
-//     let hisotyReimbursementList = testTable;
-//     addTable(tableName, hisotyReimbursementList);
-// }
+    }
+}
 
+isPasswordValidity = (password) => {
+    if(password.length > 7) {
+        return true;
+    }else{
+        alert("Invalid Password !!!")
+        return false;
+    }
+}

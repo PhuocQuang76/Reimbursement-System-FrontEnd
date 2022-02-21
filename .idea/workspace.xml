@@ -20,19 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89c3deec-dea2-42a5-b3d0-5c4503356d82" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/employee_index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/employee_history.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/employee_history.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/employee_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/employee_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/employee_reimbursement.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/employee_reimbursement.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/manager_history.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/manager_history.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/manager_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/manager_index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/manager_pending.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/manager_pending.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/reimbursement.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/employeeScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/employeeScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/managerScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/managerScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/reimbursementScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/reimbursementScript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +43,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -66,6 +65,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -88,7 +88,8 @@
       <workItem from="1644947471053" duration="18712000" />
       <workItem from="1645025741367" duration="1272000" />
       <workItem from="1645047949770" duration="422000" />
-      <workItem from="1645053047542" duration="24764000" />
+      <workItem from="1645053047542" duration="59174000" />
+      <workItem from="1645399255182" duration="5917000" />
     </task>
     <servers />
   </component>
@@ -120,10 +121,11 @@
       <screen x="0" y="25" width="1440" height="817" />
     </state>
     <state x="306" y="225" width="865" height="520" key="dock-window-1/0.25.1440.817/-1920.-17.1920.1055@0.25.1440.817" timestamp="1645159727950" />
-    <state x="316" y="166" width="670" height="676" key="search.everywhere.popup" timestamp="1645120926875">
-      <screen x="0" y="25" width="1440" height="817" />
+    <state x="316" y="176" width="670" height="724" key="search.everywhere.popup" timestamp="1645402769275">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="316" y="166" width="670" height="676" key="search.everywhere.popup/0.25.1440.817/-1920.-17.1920.1055@0.25.1440.817" timestamp="1645120926875" />
+    <state x="316" y="176" width="670" height="724" key="search.everywhere.popup/0.25.1440.875/-1920.-17.1920.997@0.25.1440.875" timestamp="1645402769275" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -134,38 +136,19 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/employeeScript.js</url>
-          <line>112</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/employeeScript.js</url>
-          <line>113</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/userScript.js</url>
           <line>22</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/userScript.js</url>
           <line>21</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/reimbursementScript.js</url>
-          <line>78</line>
-          <properties lambdaOrdinal="-1" />
+          <line>80</line>
           <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/reimbursementScript.js</url>
-          <line>94</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

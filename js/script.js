@@ -7,3 +7,16 @@ function createLodging(){
 }
 
 
+function rowClicked(element){
+    var rowJavascript = element.parentNode.parentNode;
+    //var rowjQuery = $(element).closest("tr");
+
+    var rowIndexJavascript = rowJavascript.rowIndex-1;
+    //var rowIndexjQuery = rowjQuery[0].rowIndex-1;
+
+    console.log("rowIndexJavascript : ",rowIndexJavascript);
+    var cell = element.parentNode.parentNode;
+    console.log("cell: " + cell);
+
+    //console.log("rowIndexjQuery : ",rowIndexjQuery);
+}
