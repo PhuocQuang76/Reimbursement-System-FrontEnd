@@ -1,0 +1,173 @@
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/*.headerBar{*/
+/*    position: fixed;*/
+/*}*/
+
+.list-inline-item{
+    margin-left:10px;
+}
+.card{
+    background-color: #87cade;
+}
+
+.border{
+    border-styles:solid ;
+    color: #050c18;
+}
+img{
+    border-radius: 2%;
+}
+
+div.container{
+    margin-top: 100px;
+}
+
+*{
+    font-family: SansSerif;
+    color: #0a1d2d;
+}
+/*#login:hover{*/
+/*    background-color: #4a6998;*/
+/*    color: #1d0707;*/
+/*}*/
+/*#login{*/
+/*    background-color: #464646;*/
+/*    color: white;*/
+/*    font-weight: bold;*/
+/*    onMouseOver:"this.style.backgroundColor ='#09F'";*/
+/*    onMouseOver:"this.style.color= 'red'";*/
+/*    onMouseOut:"this.style.backgroundColor='#00F',this.style.color='#red'";*/
+/*}*/
+
+.navbar{
+    background-color: #265e9d;
+}
+.nav{
+    font-family: Courier;
+}
+.nav:hover {
+    color: #cdb337;
+    font-weight: bold;
+    font-style: italic;
+}
+.buttonLogout{
+    background-color: #628fb1;
+    border-radius: 10px;
+    height: 40px;
+    color: #030d1a;
+    font-weight: bold;
+}
+.buttonLogout:hover{
+    color: #a57725;
+    font-style: italic;
+}
+.button{
+    background-color: #6796cb;
+    border-radius: 7px;
+    height: 40px;
+    color:black;
+    width: 100px;
+}
+.button:hover{
+    color: #d49f40;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.reimbType1{
+    width: 60px;
+    height: 50px;
+}
+.reimbType2{
+    width: 100px;
+    height: 50px;
+}
+.reimbType3, .reimbType4{
+    width: 250px;
+    height: 50px;
+}
+
+.reimbType5{
+    width: 80px;
+    height: 50px;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+
+}
+.reimbType5:hover{
+    font-size: large;
+    font-style: italic;
+    background-color: #a9c3d7;
+    color: #264c1b;
+}
+#head1 {
+    width: 80px;
+    height: 50px;
+}
+#head2{
+    width: 220px;
+    height: 50px;
+}
+#head3{
+    width: 150px;
+    height: 50px;
+}
+#head4{
+    width: 150px;
+    height: 50px;
+}
+#head5{
+    width: 120px;
+    height: 50px;
+}
+#head6{
+    width: 120px;
+    height: 50px;
+}
+#head7{
+    width: 150px;
+    height: 50px;
+}
+/*#userListTable{*/
+/*    border: 2px solid black;*/
+/*}*/
+.border{
+    border: 1px solid #18399d;
+}
+.borderHead{
+    background-color: #3c89ca;
+    border: 1px solid black;
+}
+
+#reimbursementForm{
+    background-color: #f7fafa;
+    border: 1px solid black;
+    width: 41%;
+}
+#reimbursementForm >input, select{
+    height: 40px;
+    width: 45%;
+
+}
+#reimbursementForm > label{
+    margin: 20px 2px 1px 25px;
+    font-weight: bold;
+    text-decoration: #030d1a;
+    width: 170px;
+}
+#reimbursementForm > textarea{
+    margin-top: 25px;
+    width: 45%;
+}
+#submitForm, h4{
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}

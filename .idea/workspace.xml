@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="89c3deec-dea2-42a5-b3d0-5c4503356d82" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/0/5/05efc8b1657769a27696d478ded1e95f38737233" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/0/5/05efc8b1657769a27696d478ded1e95f38737233" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AJAX/.idea/AJAX.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../AJAX/.idea/AJAX.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AJAX/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AJAX/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AJAX/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AJAX/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AJAX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AJAX/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AJAX/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../AJAX/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AJAX/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../AJAX/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AJAX/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../AJAX/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AJAX/timing.html" beforeDir="false" afterPath="$PROJECT_DIR$/../AJAX/timing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AJAX/timing.js" beforeDir="false" afterPath="$PROJECT_DIR$/../AJAX/timing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-0" beforeDir="false" afterPath="$PROJECT_DIR$/../Project-0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-0 Documentation.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/.idea/sonarlint/issuestore/0/0/00bc91332c1e276c86b73e839e98d7ef3b08f994" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/.idea/sonarlint/issuestore/1/a/1acf45036790e0d73f435364483fda96d5a008d4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/.idea/sonarlint/issuestore/2/4/24da1962937e357174ab6b8c87c399d262326b63" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/.idea/sonarlint/issuestore/2/e/2ee1be744a91a317f0cec200d46dd135e8574091" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/.idea/sonarlint/issuestore/9/9/997c71458cf2fc77d2cc10c98a6f01946a016325" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/.idea/sonarlint/issuestore/c/3/c30fddb0439f58ca7b412c2eda9ea7d84858f8d8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/EmployeeReimbursementSystemDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/JavalinDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/controllers/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/controllers/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/dao/EmployeeDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/dao/EmployeeDaoJDBC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/dao/ManagerDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/dao/ManagerDaoJDBC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/dao/ReimbursementDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/dao/ReimbursementDaoJDBC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/dao/ReimbursementDetailDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/dao/ReimbursementDetailDaoJDBC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/dao/UserDaoJDBC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/dto/scriptDB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/exceptions/AssignmentPastDueException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/models/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/models/Manager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/models/Reimbursable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/models/Reimbursement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/models/ReimbursementDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/models/ReimbursementStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/models/ReimbursementType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/models/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/models/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/routes/AuthRoutes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/routes/EmployeeRoutes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/routes/Route.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/routes/UserRoutes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/services/AuthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/services/EmployeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/services/ManagerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/services/ReimbursementDetailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/services/ReimbursementService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/services/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/util/ConnectionUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/util/EnvironmentParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/main/java/com/revature/util/LoggingSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/app/src/test/java/com/revature/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project-1/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project02" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project02-cancel" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="24d1QD1WV4Yg9yGW9TStxhztjUK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/html" />
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89c3deec-dea2-42a5-b3d0-5c4503356d82" name="Default Changelist" comment="" />
+      <created>1643945632486</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643945632486</updated>
+      <workItem from="1643945634854" duration="7675000" />
+      <workItem from="1644306229377" duration="64608000" />
+      <workItem from="1644947471053" duration="18712000" />
+      <workItem from="1645025741367" duration="1272000" />
+      <workItem from="1645047949770" duration="422000" />
+      <workItem from="1645053047542" duration="59174000" />
+      <workItem from="1645399255182" duration="9799000" />
+      <workItem from="1645592343548" duration="6887000" />
+      <workItem from="1647060259656" duration="2849000" />
+      <workItem from="1647191348974" duration="1985000" />
+      <workItem from="1647229298261" duration="146000" />
+      <workItem from="1647402874318" duration="444000" />
+      <workItem from="1647403604464" duration="1926000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="237" y="84" key="SettingsEditor" timestamp="1643949904659">
+      <screen x="0" y="25" width="1440" height="817" />
+    </state>
+    <state x="237" y="84" key="SettingsEditor/0.25.1440.817@0.25.1440.817" timestamp="1643949904659" />
+    <state x="629" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1644791619359">
+      <screen x="0" y="25" width="1440" height="817" />
+    </state>
+    <state x="629" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.817@0.25.1440.817" timestamp="1644791619359" />
+    <state x="306" y="225" width="865" height="520" key="dock-window-1" timestamp="1645159727950">
+      <screen x="0" y="25" width="1440" height="817" />
+    </state>
+    <state x="306" y="225" width="865" height="520" key="dock-window-1/0.25.1440.817/-1920.-17.1920.1055@0.25.1440.817" timestamp="1645159727950" />
+    <state x="316" y="176" width="670" height="724" key="search.everywhere.popup" timestamp="1645402769275">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="316" y="166" width="670" height="676" key="search.everywhere.popup/0.25.1440.817/-1920.-17.1920.1055@0.25.1440.817" timestamp="1645120926875" />
+    <state x="316" y="176" width="670" height="724" key="search.everywhere.popup/0.25.1440.875/-1920.-17.1920.997@0.25.1440.875" timestamp="1645402769275" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/userScript.js</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/userScript.js</url>
+          <line>22</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/userScript.js</url>
+          <line>21</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/reimbursementScript.js</url>
+          <line>80</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/managerScript.js</url>
+          <line>44</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
